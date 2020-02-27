@@ -6,7 +6,7 @@ This is an IIS *HttpModule* that need to be registered in a IIS web application 
 The binary file of the HttpModule can be downloaded from
 [https://www.finalanalytics.com/downloads/HttpLogHelper.zip](https://www.finalanalytics.com/downloads/HttpLogHelper.zip)
 
-Once the assembly *HttpLogHelper.dll* has been copied in the bin folder of the web application you need to register the *PostloggerModule* either through the IIS manager or through *web.config* of the application like below.
+Once the assembly *HttpLogHelper.dll* has been copied in the bin folder of the web application you need to register the *PostloggerModule* either through the IIS manager or in the *web.config* of the application like below.
 
     <configuration>
 		...
